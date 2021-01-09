@@ -1,0 +1,52 @@
+$primary: #FFF;
+$secondary: rgb(202, 200, 200);
+
+.headerContainer__section{
+    position: relative;
+}
+
+.coverImage__section{
+    background-image:url('../../../images/cover2.jpg');
+    background-size: cover;
+    height:100vh ;
+}
+
+.navBar__section{
+    position: absolute;
+    top: 0%;
+    display: flex;
+    color: $secondary;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.Logo__section{
+    margin: 0 3rem;
+}
+
+.userFeautures__section{
+    display: flex;
+    padding: 0rem 2rem;
+}
+
+.singleFeature__Section{
+    margin-right: 3rem;
+    outline: none;
+    text-decoration: none;
+}
+
+.accountLink{
+   color: $secondary;
+}
+
+.headerText__section{
+    color: $primary;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    font-weight: 1000;
+    font-size: 250%;
+    width: 30%;
+    padding: .5rem;
+}
