@@ -1,0 +1,913 @@
+[
+  {
+    "id": 59,
+    "name": "CERAMIC",
+    "alias": "CERAMIC",
+    "metadata": "{\"icon\":null,\"cover\":null,\"banner\":null}",
+    "tag_id": 59,
+    "node_id": 41864,
+    "p_name": "ceramic",
+    "category_id": 223,
+    "graph_id": null
+  },
+  {
+    "id": 66,
+    "name": "PORCELAIN",
+    "alias": "PORCELAIN",
+    "metadata": null,
+    "children": [
+      {
+        "id": 66,
+        "name": "PORCELAIN",
+        "alias": "PORCELAIN",
+        "metadata": null,
+        "children": [
+          {
+            "id": 19739,
+            "name": "Roca Porcelain",
+            "alias": "ROCA PORCELAIN",
+            "metadata": "{\"description\":\"porcelain roca\",\"icon\":\"60/unnamed-9-.jpg\",\"cover\":\"60/boost-004-07-smoke-copyright-b-arcit18-0a76dd82d3be4240b71237a12f1bcb38.jpg\",\"banner\":\"60/download-37-.jpg\"}",
+            "tag_id": 19739,
+            "node_id": 41865,
+            "p_name": "19739-roca-porcelain",
+            "category_id": 222,
+            "graph_id": null
+          }
+        ],
+        "tag_id": 66,
+        "node_id": 41866,
+        "p_name": "porcelain",
+        "category_id": 222,
+        "graph_id": null
+      }
+    ],
+    "tag_id": 66,
+    "node_id": 41867,
+    "p_name": "porcelain",
+    "category_id": 222,
+    "graph_id": null
+  },
+  {
+    "id": 65,
+    "name": "MOSAIC",
+    "alias": "MOSAIC",
+    "metadata": "{}",
+    "children": [
+      {
+        "id": 19705,
+        "name": "Mosaic",
+        "alias": "decor sheets",
+        "metadata": "{\"description\":\"test \",\"icon\":\"60/brico-mix-2-bc1820e94a2942cc916aa3766222f9a5.jpg\",\"cover\":\"60/capri-marina-3-27ad5c9ccc344af9b43a4b39bc920f8a.jpg\",\"banner\":\"60/capri-marina--e58cd8ce790241eeb7b1270e21cbbba8.jpg\"}",
+        "children": [
+          {
+            "id": 6639,
+            "name": "STONE",
+            "alias": "STONE",
+            "metadata": "{}",
+            "tag_id": 6639,
+            "node_id": 41868,
+            "p_name": "stone",
+            "category_id": 266,
+            "graph_id": null
+          }
+        ],
+        "tag_id": 19705,
+        "node_id": 41869,
+        "p_name": "19705-mosaic",
+        "category_id": 224,
+        "graph_id": null
+      }
+    ],
+    "tag_id": 65,
+    "node_id": 41870,
+    "p_name": "decor",
+    "category_id": 224,
+    "graph_id": null
+  },
+  {
+    "id": 6639,
+    "name": "STONE",
+    "alias": "STONE",
+    "metadata": "{}",
+    "children": [
+      {
+        "id": 6639,
+        "name": "STONE",
+        "alias": "STONE",
+        "metadata": "{}",
+        "tag_id": 6639,
+        "node_id": 41871,
+        "p_name": "stone",
+        "category_id": 266,
+        "graph_id": null
+      }
+    ],
+    "tag_id": 6639,
+    "node_id": 41872,
+    "p_name": "stone",
+    "category_id": 266,
+    "graph_id": null
+  },
+  {
+    "id": 6633,
+    "name": "SWIMMING POOL",
+    "alias": "SWIMMING POOL",
+    "metadata": "{}",
+    "tag_id": 6633,
+    "node_id": 41873,
+    "p_name": "swimming-pool",
+    "category_id": 225,
+    "graph_id": null
+  },
+  {
+    "id": 6634,
+    "name": "MIXERS",
+    "alias": "MIXERS",
+    "metadata": "{}",
+    "children": [
+      {
+        "id": 6941,
+        "name": "BASIN MIXER",
+        "alias": "BASIN MIXER",
+        "metadata": "{}",
+        "children": [
+          {
+            "id": 6934,
+            "name": "BATH MIXER",
+            "alias": "BATH MIXER",
+            "metadata": "{}",
+            "tag_id": 6934,
+            "node_id": 41874,
+            "p_name": "bath-mixer",
+            "category_id": 226,
+            "graph_id": null
+          },
+          {
+            "id": 6986,
+            "name": "SHOWER",
+            "alias": "SHOWER",
+            "metadata": "{}",
+            "tag_id": 6986,
+            "node_id": 41875,
+            "p_name": "shower",
+            "category_id": 226,
+            "graph_id": null
+          },
+          {
+            "id": 45,
+            "name": "HAND MIXER",
+            "alias": "HAND MIXER",
+            "metadata": null,
+            "tag_id": 45,
+            "node_id": 41876,
+            "p_name": "hand-mixer",
+            "category_id": 226,
+            "graph_id": null
+          },
+          {
+            "id": 6956,
+            "name": "KITCHEN MIXER",
+            "alias": "KITCHEN MIXER",
+            "metadata": "{}",
+            "tag_id": 6956,
+            "node_id": 41877,
+            "p_name": "kitchen-mixer",
+            "category_id": 226,
+            "graph_id": null
+          }
+        ],
+        "tag_id": 6941,
+        "node_id": 41878,
+        "p_name": "basin-mixer",
+        "category_id": 226,
+        "graph_id": null
+      },
+      {
+        "id": 6956,
+        "name": "KITCHEN MIXER",
+        "alias": "KITCHEN MIXER",
+        "metadata": "{}",
+        "children": [
+          {
+            "id": 45,
+            "name": "HAND MIXER",
+            "alias": "HAND MIXER",
+            "metadata": null,
+            "tag_id": 45,
+            "node_id": 41879,
+            "p_name": "hand-mixer",
+            "category_id": 226,
+            "graph_id": null
+          }
+        ],
+        "tag_id": 6956,
+        "node_id": 41880,
+        "p_name": "kitchen-mixer",
+        "category_id": 226,
+        "graph_id": null
+      },
+      {
+        "id": 6634,
+        "name": "MIXERS",
+        "alias": "MIXERS",
+        "metadata": "{}",
+        "tag_id": 6634,
+        "node_id": 41881,
+        "p_name": "mixers",
+        "category_id": 226,
+        "graph_id": null
+      }
+    ],
+    "tag_id": 6634,
+    "node_id": 41882,
+    "p_name": "mixers",
+    "category_id": 226,
+    "graph_id": null
+  },
+  {
+    "id": 6912,
+    "name": "SHOWERS",
+    "alias": "SHOWERS",
+    "metadata": "{}",
+    "children": [
+      {
+        "id": 6986,
+        "name": "SHOWER",
+        "alias": "SHOWER",
+        "metadata": "{}",
+        "children": [
+          {
+            "id": 6968,
+            "name": "SHOWER ARM",
+            "alias": "SHOWER ARM",
+            "metadata": "{}",
+            "tag_id": 6968,
+            "node_id": 41883,
+            "p_name": "shower-arm",
+            "category_id": 226,
+            "graph_id": null
+          },
+          {
+            "id": 6994,
+            "name": "SHOWER FLOOR",
+            "alias": "SHOWER FLOOR",
+            "metadata": "{}",
+            "tag_id": 6994,
+            "node_id": 41884,
+            "p_name": "shower-floor",
+            "category_id": 224,
+            "graph_id": null
+          },
+          {
+            "id": 6943,
+            "name": "SHOWER HEAD",
+            "alias": "SHOWER HEAD",
+            "metadata": "{}",
+            "tag_id": 6943,
+            "node_id": 41885,
+            "p_name": "shower-head",
+            "category_id": 226,
+            "graph_id": null
+          },
+          {
+            "id": 6933,
+            "name": "SHOWER TRAY",
+            "alias": "SHOWER TRAY",
+            "metadata": "{}",
+            "tag_id": 6933,
+            "node_id": 41886,
+            "p_name": "shower-tray",
+            "category_id": 225,
+            "graph_id": null
+          }
+        ],
+        "tag_id": 6986,
+        "node_id": 41887,
+        "p_name": "shower",
+        "category_id": 226,
+        "graph_id": null
+      },
+      {
+        "id": 6971,
+        "name": "SHOWER HAND",
+        "alias": "SHOWER HAND",
+        "metadata": "{}",
+        "tag_id": 6971,
+        "node_id": 41888,
+        "p_name": "shower-hand",
+        "category_id": 226,
+        "graph_id": null
+      },
+      {
+        "id": 6943,
+        "name": "SHOWER HEAD",
+        "alias": "SHOWER HEAD",
+        "metadata": "{}",
+        "tag_id": 6943,
+        "node_id": 41889,
+        "p_name": "shower-head",
+        "category_id": 226,
+        "graph_id": null
+      },
+      {
+        "id": 6968,
+        "name": "SHOWER ARM",
+        "alias": "SHOWER ARM",
+        "metadata": "{}",
+        "tag_id": 6968,
+        "node_id": 41890,
+        "p_name": "shower-arm",
+        "category_id": 226,
+        "graph_id": null
+      },
+      {
+        "id": 6687,
+        "name": "RAIN SHOWER",
+        "alias": "RAIN SHOWER",
+        "metadata": "{}",
+        "tag_id": 6687,
+        "node_id": 41891,
+        "p_name": "rain-shower",
+        "category_id": 23,
+        "graph_id": null
+      }
+    ],
+    "tag_id": 6912,
+    "node_id": 41892,
+    "p_name": "showers",
+    "category_id": 23,
+    "graph_id": null
+  },
+  {
+    "id": 6628,
+    "name": "BASIN",
+    "alias": "BASIN",
+    "metadata": "{\"cover\":\"60/1-38916361a4334227b7befdd1784c596b.png\",\"icon\":\"60/1-556c4eca34f245b6bf97721ae12f289b.jpg\",\"banner\":\"60/1-4854f0d3524e4597a27f01882d9ed964.png\"}",
+    "children": [
+      {
+        "id": 6628,
+        "name": "BASIN",
+        "alias": "BASIN",
+        "metadata": "{\"cover\":\"60/1-38916361a4334227b7befdd1784c596b.png\",\"icon\":\"60/1-556c4eca34f245b6bf97721ae12f289b.jpg\",\"banner\":\"60/1-4854f0d3524e4597a27f01882d9ed964.png\"}",
+        "children": [
+          {
+            "id": 6944,
+            "name": "COUNTERTOP",
+            "alias": "COUNTERTOP",
+            "metadata": "{}",
+            "tag_id": 6944,
+            "node_id": 41893,
+            "p_name": "countertop",
+            "category_id": 225,
+            "graph_id": null
+          },
+          {
+            "id": 6958,
+            "name": "UNDER COUNTER",
+            "alias": "UNDER COUNTER",
+            "metadata": "{}",
+            "tag_id": 6958,
+            "node_id": 41894,
+            "p_name": "under-counter",
+            "category_id": 225,
+            "graph_id": null
+          }
+        ],
+        "tag_id": 6628,
+        "node_id": 41895,
+        "p_name": "basin",
+        "category_id": 225,
+        "graph_id": null
+      }
+    ],
+    "tag_id": 6628,
+    "node_id": 41896,
+    "p_name": "basin",
+    "category_id": 225,
+    "graph_id": null
+  },
+  {
+    "id": 6942,
+    "name": "TOILET",
+    "alias": "TOILET",
+    "metadata": "{}",
+    "children": [
+      {
+        "id": 6942,
+        "name": "TOILET",
+        "alias": "TOILET",
+        "metadata": "{}",
+        "children": [
+          {
+            "id": 6940,
+            "name": "TOILET SEAT&COVER",
+            "alias": "TOILET SEAT&COVER",
+            "metadata": "{}",
+            "tag_id": 6940,
+            "node_id": 41897,
+            "p_name": "toilet-seat-cover",
+            "category_id": 225,
+            "graph_id": null
+          },
+          {
+            "id": 6627,
+            "name": "BIDET",
+            "alias": "BIDET",
+            "metadata": "{}",
+            "tag_id": 6627,
+            "node_id": 41898,
+            "p_name": "bidet",
+            "category_id": 225,
+            "graph_id": null
+          }
+        ],
+        "tag_id": 6942,
+        "node_id": 41899,
+        "p_name": "toilet",
+        "category_id": 225,
+        "graph_id": null
+      }
+    ],
+    "tag_id": 6942,
+    "node_id": 41900,
+    "p_name": "toilet",
+    "category_id": 225,
+    "graph_id": null
+  },
+  {
+    "id": 6945,
+    "name": "VANITY UNIT",
+    "alias": "VANITY UNIT",
+    "metadata": "{}",
+    "children": [
+      {
+        "id": 64,
+        "name": "BATHROOM UNITS ",
+        "alias": "BATHROOM UNITS ",
+        "metadata": "{}",
+        "tag_id": 64,
+        "node_id": 41901,
+        "p_name": "bathroom-units-hdf",
+        "category_id": 228,
+        "graph_id": null
+      },
+      {
+        "id": 6973,
+        "name": "FURNITURE BASIN",
+        "alias": "FURNITURE BASIN",
+        "metadata": "{}",
+        "tag_id": 6973,
+        "node_id": 41902,
+        "p_name": "furniture-basin",
+        "category_id": 225,
+        "graph_id": null
+      },
+      {
+        "id": 6638,
+        "name": "FURNITURE",
+        "alias": "FURNITURE",
+        "metadata": "{}",
+        "tag_id": 6638,
+        "node_id": 41903,
+        "p_name": "furniture",
+        "category_id": 263,
+        "graph_id": null
+      }
+    ],
+    "tag_id": 6945,
+    "node_id": 41904,
+    "p_name": "vanity-unit",
+    "category_id": 263,
+    "graph_id": null
+  },
+  {
+    "id": 6631,
+    "name": "BATHTUB",
+    "alias": "BATHTUB",
+    "metadata": "{}",
+    "children": [
+      {
+        "id": 6631,
+        "name": "BATHTUB",
+        "alias": "BATHTUB",
+        "metadata": "{}",
+        "children": [
+          {
+            "id": 6996,
+            "name": "BATHTUB PINS",
+            "alias": "BATHTUB PINS",
+            "metadata": "{}",
+            "tag_id": 6996,
+            "node_id": 41905,
+            "p_name": "bathtub-pins",
+            "category_id": 225,
+            "graph_id": null
+          }
+        ],
+        "tag_id": 6631,
+        "node_id": 41906,
+        "p_name": "bathtub",
+        "category_id": 225,
+        "graph_id": null
+      }
+    ],
+    "tag_id": 6631,
+    "node_id": 41907,
+    "p_name": "bathtub",
+    "category_id": 225,
+    "graph_id": null
+  },
+  {
+    "id": 6629,
+    "name": "JACUZZI",
+    "alias": "JACUZZI",
+    "metadata": "{}",
+    "children": [
+      {
+        "id": 6629,
+        "name": "JACUZZI",
+        "alias": "JACUZZI",
+        "metadata": "{}",
+        "tag_id": 6629,
+        "node_id": 41908,
+        "p_name": "jacuzzi",
+        "category_id": 225,
+        "graph_id": null
+      },
+      {
+        "id": 6983,
+        "name": "JET",
+        "alias": "JET",
+        "metadata": "{}",
+        "tag_id": 6983,
+        "node_id": 41909,
+        "p_name": "jet",
+        "category_id": 225,
+        "graph_id": null
+      }
+    ],
+    "tag_id": 6629,
+    "node_id": 41910,
+    "p_name": "jacuzzi",
+    "category_id": 225,
+    "graph_id": null
+  },
+  {
+    "id": 6632,
+    "name": "KITCHEN SINK",
+    "alias": "KITCHEN SINK",
+    "metadata": "{}",
+    "children": [
+      {
+        "id": 6632,
+        "name": "KITCHEN SINK",
+        "alias": "KITCHEN SINK",
+        "metadata": "{}",
+        "tag_id": 6632,
+        "node_id": 41911,
+        "p_name": "kitchen-sink",
+        "category_id": 226,
+        "graph_id": null
+      },
+      {
+        "id": 6637,
+        "name": "BUILT IN CISTERNS",
+        "alias": "BUILT IN CISTERNS",
+        "metadata": "{}",
+        "tag_id": 6637,
+        "node_id": 41912,
+        "p_name": "built-in-cisterns",
+        "category_id": 225,
+        "graph_id": null
+      },
+      {
+        "id": 6981,
+        "name": "BUILT IN OUT LET",
+        "alias": "BUILT IN OUT LET",
+        "metadata": "{}",
+        "tag_id": 6981,
+        "node_id": 41913,
+        "p_name": "built-in-out-let",
+        "category_id": 226,
+        "graph_id": null
+      },
+      {
+        "id": 6982,
+        "name": "BUILT IN VALVE",
+        "alias": "BUILT IN VALVE",
+        "metadata": "{}",
+        "tag_id": 6982,
+        "node_id": 41914,
+        "p_name": "built-in-valve",
+        "category_id": 226,
+        "graph_id": null
+      },
+      {
+        "id": 6997,
+        "name": "CAPULI",
+        "alias": "CAPULI",
+        "metadata": "{}",
+        "tag_id": 6997,
+        "node_id": 41915,
+        "p_name": "capuli",
+        "category_id": 263,
+        "graph_id": null
+      },
+      {
+        "id": 6711,
+        "name": "GET RAIN",
+        "alias": "GET RAIN",
+        "metadata": "{}",
+        "tag_id": 6711,
+        "node_id": 41916,
+        "p_name": "get-rain",
+        "category_id": 23,
+        "graph_id": null
+      },
+      {
+        "id": 6715,
+        "name": "GET RELAXE",
+        "alias": "GET RELAXE",
+        "metadata": "{}",
+        "tag_id": 6715,
+        "node_id": 41917,
+        "p_name": "get-relaxe",
+        "category_id": 23,
+        "graph_id": null
+      },
+      {
+        "id": 6641,
+        "name": "HEATER",
+        "alias": "HEATER",
+        "metadata": "{}",
+        "tag_id": 6641,
+        "node_id": 41918,
+        "p_name": "heater",
+        "category_id": 225,
+        "graph_id": null
+      },
+      {
+        "id": 6966,
+        "name": "HOOK",
+        "alias": "HOOK",
+        "metadata": "{}",
+        "tag_id": 6966,
+        "node_id": 41919,
+        "p_name": "hook",
+        "category_id": 227,
+        "graph_id": null
+      },
+      {
+        "id": 6929,
+        "name": "STAINLESS STEEL",
+        "alias": "STAINLESS STEEL",
+        "metadata": "{}",
+        "tag_id": 6929,
+        "node_id": 41920,
+        "p_name": "stainless-steel",
+        "category_id": 225,
+        "graph_id": null
+      },
+      {
+        "id": 6932,
+        "name": "TANK",
+        "alias": "TANK",
+        "metadata": "{}",
+        "tag_id": 6932,
+        "node_id": 41921,
+        "p_name": "tank",
+        "category_id": 225,
+        "graph_id": null
+      },
+      {
+        "id": 6959,
+        "name": "TANK COVER",
+        "alias": "TANK COVER",
+        "metadata": "{}",
+        "tag_id": 6959,
+        "node_id": 41922,
+        "p_name": "tank-cover",
+        "category_id": 225,
+        "graph_id": null
+      },
+      {
+        "id": 6960,
+        "name": "TOWEL HOLDER",
+        "alias": "TOWEL HOLDER",
+        "metadata": "{}",
+        "tag_id": 6960,
+        "node_id": 41923,
+        "p_name": "towel-holder",
+        "category_id": 227,
+        "graph_id": null
+      },
+      {
+        "id": 6965,
+        "name": "TOWEL RING",
+        "alias": "TOWEL RING",
+        "metadata": "{}",
+        "tag_id": 6965,
+        "node_id": 41924,
+        "p_name": "towel-ring",
+        "category_id": 227,
+        "graph_id": null
+      },
+      {
+        "id": 6930,
+        "name": "flush valve",
+        "alias": "flush valve",
+        "metadata": "{}",
+        "tag_id": 6930,
+        "node_id": 41925,
+        "p_name": "flush-valve",
+        "category_id": 226,
+        "graph_id": null
+      }
+    ],
+    "tag_id": 6632,
+    "node_id": 41926,
+    "p_name": "kitchen-sink",
+    "category_id": 226,
+    "graph_id": null
+  },
+  {
+    "id": 6640,
+    "name": "CABINET",
+    "alias": "CABINET",
+    "metadata": "{}",
+    "children": [
+      {
+        "id": 6640,
+        "name": "CABINET",
+        "alias": "CABINET",
+        "metadata": "{}",
+        "tag_id": 6640,
+        "node_id": 41927,
+        "p_name": "cabinet",
+        "category_id": 225,
+        "graph_id": null
+      }
+    ],
+    "tag_id": 6640,
+    "node_id": 41928,
+    "p_name": "cabinet",
+    "category_id": 225,
+    "graph_id": null
+  },
+  {
+    "id": 33,
+    "name": "ACCESSORIES",
+    "alias": "ACCESSORIES",
+    "metadata": null,
+    "children": [
+      {
+        "id": 33,
+        "name": "ACCESSORIES",
+        "alias": "ACCESSORIES",
+        "metadata": null,
+        "tag_id": 33,
+        "node_id": 41929,
+        "p_name": "accessories",
+        "category_id": 227,
+        "graph_id": null
+      },
+      {
+        "id": 6953,
+        "name": "BACKREST",
+        "alias": "BACKREST",
+        "metadata": "{}",
+        "tag_id": 6953,
+        "node_id": 41930,
+        "p_name": "backrest",
+        "category_id": 225,
+        "graph_id": null
+      },
+      {
+        "id": 6993,
+        "name": "BASKET",
+        "alias": "BASKET",
+        "metadata": "{}",
+        "tag_id": 6993,
+        "node_id": 41931,
+        "p_name": "basket",
+        "category_id": 227,
+        "graph_id": null
+      },
+      {
+        "id": 6976,
+        "name": "BRUSH",
+        "alias": "BRUSH",
+        "metadata": "{}",
+        "tag_id": 6976,
+        "node_id": 41932,
+        "p_name": "brush",
+        "category_id": 227,
+        "graph_id": null
+      },
+      {
+        "id": 6637,
+        "name": "BUILT IN CISTERNS",
+        "alias": "BUILT IN CISTERNS",
+        "metadata": "{}",
+        "tag_id": 6637,
+        "node_id": 41933,
+        "p_name": "built-in-cisterns",
+        "category_id": 225,
+        "graph_id": null
+      },
+      {
+        "id": 6981,
+        "name": "BUILT IN OUT LET",
+        "alias": "BUILT IN OUT LET",
+        "metadata": "{}",
+        "tag_id": 6981,
+        "node_id": 41934,
+        "p_name": "built-in-out-let",
+        "category_id": 226,
+        "graph_id": null
+      },
+      {
+        "id": 6982,
+        "name": "BUILT IN VALVE",
+        "alias": "BUILT IN VALVE",
+        "metadata": "{}",
+        "tag_id": 6982,
+        "node_id": 41935,
+        "p_name": "built-in-valve",
+        "category_id": 226,
+        "graph_id": null
+      },
+      {
+        "id": 6969,
+        "name": "CUP HOLDER",
+        "alias": "CUP HOLDER",
+        "metadata": "{}",
+        "tag_id": 6969,
+        "node_id": 41936,
+        "p_name": "cup-holder",
+        "category_id": 227,
+        "graph_id": null
+      },
+      {
+        "id": 6979,
+        "name": "HANDGRIPS",
+        "alias": "HANDGRIPS",
+        "metadata": "{}",
+        "tag_id": 6979,
+        "node_id": 41937,
+        "p_name": "handgrips",
+        "category_id": 225,
+        "graph_id": null
+      },
+      {
+        "id": 6641,
+        "name": "HEATER",
+        "alias": "HEATER",
+        "metadata": "{}",
+        "tag_id": 6641,
+        "node_id": 41938,
+        "p_name": "heater",
+        "category_id": 225,
+        "graph_id": null
+      },
+      {
+        "id": 6991,
+        "name": "HEADREST",
+        "alias": "HEADREST",
+        "metadata": "{}",
+        "tag_id": 6991,
+        "node_id": 41939,
+        "p_name": "headrest",
+        "category_id": 225,
+        "graph_id": null
+      },
+      {
+        "id": 6966,
+        "name": "HOOK",
+        "alias": "HOOK",
+        "metadata": "{}",
+        "tag_id": 6966,
+        "node_id": 41940,
+        "p_name": "hook",
+        "category_id": 227,
+        "graph_id": null
+      },
+      {
+        "id": 6980,
+        "name": "INSTANT HEATER",
+        "alias": "INSTANT HEATER",
+        "metadata": "{}",
+        "tag_id": 6980,
+        "node_id": 41941,
+        "p_name": "instant-heater",
+        "category_id": 225,
+        "graph_id": null
+      }
+    ],
+    "tag_id": 33,
+    "node_id": 41942,
+    "p_name": "accessories",
+    "category_id": 227,
+    "graph_id": null
+  }
+]
