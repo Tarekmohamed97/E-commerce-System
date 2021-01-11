@@ -1,0 +1,9 @@
+.sliderContainer__Section{
+    margin: 3rem 1rem;
+}
+
+.singleProductCard__Section{
+    border: 1px solid gray;
+    height: 80%;
+    width: 400px;
+}
