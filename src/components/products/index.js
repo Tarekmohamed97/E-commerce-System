@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import data from "../../products.json";
 import tagsData from "../../tagstree.json";
+import ListOfProducts from './listOfProducts';
+
 
 export default class Products extends Component {
 
@@ -34,7 +36,6 @@ export default class Products extends Component {
 
         Array.prototype.forEach.call(product.tags, tag => {
             Array.prototype.forEach.call(pathArray, path => {
-                console.log(tag.alias)
                 if(path.includes(tag.alias)){
                     finalPath += path;
                 }
@@ -45,9 +46,10 @@ export default class Products extends Component {
     }
 
     render() {
-        let pathArray = []
+        let pathArray = [];
         let nodeFullPath = "";
-        let finalProductPath = ""
+        let finalProductPaths = [];
+        let listOfProducts = []
 
         
         Array.prototype.forEach.call(this.state.tags, tag => {
@@ -55,14 +57,25 @@ export default class Products extends Component {
         })
 
         Array.prototype.forEach.call(this.state.products, product => {
-            //finalProductPath = this.formingProductPath(product, nodeFullPath);
+            let productObject = {
+                name: "",
+                image_url: "",
+                tags: []
+            }
+            let productTags = this.formingProductPath(product, pathArray).split("/");
+            //finalProductPaths.push(this.formingProductPath(product, pathArray));
+            productObject.name = product.name;
+            productObject.image_url = "";
+            productTags.forEach(tag => {
+                productObject.tags.push(tag)
+            })
+            
+            listOfProducts.push(productObject);
         })
-        finalProductPath = this.formingProductPath(this.state.products[0], pathArray);
-        console.log(finalProductPath);
                 
         return (
             <div>
-               products
+               <ListOfProducts listOfProducts = {listOfProducts} />
             </div>
         )
     }
