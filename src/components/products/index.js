@@ -15,6 +15,10 @@ export default class Products extends Component {
         }
     }    
     
+    
+
+    
+
     //function to reform the tags to one layer array and each element is a full path for the tag and the children
     extractingPaths = (node, nodeFullPath) => {
         nodeFullPath += node.alias + "/";
@@ -46,6 +50,7 @@ export default class Products extends Component {
     }
 
     render() {
+        
         let pathArray = [];
         let nodeFullPath = "";
         let finalProductPaths = [];
