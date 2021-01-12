@@ -3,7 +3,14 @@ import {Link} from 'react-router-dom'
 import './header.scss'
 
 export default class Header extends Component {
+
+    constructor(props) {
+        super(props);
+    }  
+  
+
     render() {
+        console.log(window)
         return (
             <div className = "headerContainer__section">
                 <div className = "coverImage__section"></div>
@@ -27,6 +34,11 @@ export default class Header extends Component {
                     </div>
                 </div>
                 <div className = "headerText__section">When quality and Creativity Meet At One Point.</div>
+                    <div className = "hederButtons__section"> 
+                    <div className = "headerButton">Wall Collection</div>
+                    <div className = "headerButton">Floor Collection</div>
+                    <div className = "headerButton">Decor Collection</div>
+                </div>
             </div>
         )
     }
