@@ -4,15 +4,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./listOfProducts.scss";
 import wallImage from '../../../images/ceramicwall1.jpg';
-import woodImage from '../../../images/ceramicwood2.jpg'
+import woodImage from '../../../images/ceramicwood2.jpg';
+import floorImage from '../../../images/ceramicfloor2.jpg';
 
 export default class ListOfProducts extends Component {
     constructor(props) {
         super(props);
 
-        this.state = {
-            
-        }
     }    
 
     
@@ -161,7 +159,7 @@ export default class ListOfProducts extends Component {
                                     <div className = "singleProductCard__Section">
                                         <h2>{product.name}</h2>
                                         <h4 style = {{direction: 'ltr'}}>{productPath === "/" ?  "/CERAMIC" : productPath }</h4>
-                                        <img className = "productImage" src = {woodImage} alt = "wood" />
+                                        <img className = "productImage" src = {floorImage} alt = "wood" />
                                         <button className = "viewCollectionProduct__button">View Collections</button>
                                     </div>
                                 )
