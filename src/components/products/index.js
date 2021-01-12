@@ -53,7 +53,6 @@ export default class Products extends Component {
         
         let pathArray = [];
         let nodeFullPath = "";
-        let finalProductPaths = [];
         let listOfProducts = []
 
         
@@ -68,7 +67,6 @@ export default class Products extends Component {
                 tags: []
             }
             let productTags = this.formingProductPath(product, pathArray).split("/");
-            //finalProductPaths.push(this.formingProductPath(product, pathArray));
             productObject.name = product.name;
             productObject.image_url = "";
             productTags.forEach(tag => {
