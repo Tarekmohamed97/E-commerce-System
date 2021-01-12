@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./listOfProducts.css";
+import "./listOfProducts.scss";
 import wallImage from '../../../images/ceramicwall1.jpg';
 import woodImage from '../../../images/ceramicwood2.jpg'
 
@@ -79,14 +79,16 @@ export default class ListOfProducts extends Component {
                             product.tags.forEach(tag => {
                                 productPath += "/" + tag 
                             });
-                            return (
-                                <div className = "singleProductCard__Section">
-                                    <h2>{product.name}</h2>
-                                    <h4 style = {{direction: 'ltr'}}>{productPath === "/" ?  "/CERAMIC" : productPath }</h4>
-                                    <img className = "productImage" src = {wallImage} alt = "floor" />
-                                    <button className = "viewCollectionProduct__button">View Collections</button>
-                                </div>
-                            )
+                            if(productPath.includes("WALL") || productPath === "/"){
+                                return (
+                                    <div className = "singleProductCard__Section">
+                                        <h2>{product.name}</h2>
+                                        <h4 style = {{direction: 'ltr'}}>{productPath === "/" ?  "/CERAMIC" : productPath }</h4>
+                                        <img className = "productImage" src = {wallImage} alt = "floor" />
+                                        <button className = "viewCollectionProduct__button">View Collections</button>
+                                    </div>
+                                )
+                            }
                         })
                     }
                     </Slider>
@@ -154,14 +156,16 @@ export default class ListOfProducts extends Component {
                             product.tags.forEach(tag => {
                                 productPath += "/" + tag 
                             });
-                            return (
-                                <div className = "singleProductCard__Section">
-                                    <h2>{product.name}</h2>
-                                    <h4 style = {{direction: 'ltr'}}>{productPath === "/" ?  "/CERAMIC" : productPath }</h4>
-                                    <img className = "productImage" src = {woodImage} alt = "wood" />
-                                    <button className = "viewCollectionProduct__button">View Collections</button>
-                                </div>
-                            )
+                            if(productPath.includes("FLOOR") || productPath === "/"){
+                                return (
+                                    <div className = "singleProductCard__Section">
+                                        <h2>{product.name}</h2>
+                                        <h4 style = {{direction: 'ltr'}}>{productPath === "/" ?  "/CERAMIC" : productPath }</h4>
+                                        <img className = "productImage" src = {woodImage} alt = "wood" />
+                                        <button className = "viewCollectionProduct__button">View Collections</button>
+                                    </div>
+                                )
+                            }
                         })
                     }
                     </Slider>
